@@ -1,0 +1,571 @@
+1640521208048	geckodriver	INFO	Listening on 127.0.0.1:52134
+1640521211116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52135" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileVYhMtl"
+1640521212011	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileVYhMtl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52135/devtools/browser/a7bdfd6e-6619-40fd-a13d-bc5eb46a62a0
+1640521217382	Marionette	INFO	Listening on port 52141
+1640521217523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640521224304	Marionette	INFO	Stopped listening on port 52141
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.error: QuickSuggest: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 131))
+JavaScript error: https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js, line 25: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640522804403	geckodriver	INFO	Listening on 127.0.0.1:56425
+1640522807495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56426" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileuEZfcP"
+1640522808214	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileuEZfcP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56426/devtools/browser/54640998-1ef8-4832-99b7-485082faee1f
+1640522813317	Marionette	INFO	Listening on port 56431
+1640522813399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640522839118	Marionette	INFO	Stopped listening on port 56431
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640523055303	geckodriver	INFO	Listening on 127.0.0.1:50806
+1640523058384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50807" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileb8vabl"
+1640523059054	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileb8vabl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50807/devtools/browser/fb265bc1-f790-4919-bb0e-f544ec200ec8
+1640523063970	Marionette	INFO	Listening on port 50812
+1640523064281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640523237619	Marionette	INFO	Stopped listening on port 50812
+1640523242850	geckodriver	INFO	Listening on 127.0.0.1:50925
+1640523245929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50926" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileNisVru"
+1640523246598	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileNisVru\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50926/devtools/browser/963b0188-bf74-4e66-9e0c-874597db4a08
+1640523251871	Marionette	INFO	Listening on port 50931
+1640523252314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1640523375071	Marionette	INFO	Stopped listening on port 50931
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640523385636	geckodriver	INFO	Listening on 127.0.0.1:51032
+1640523388726	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51033" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileSABczH"
+1640523389400	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileSABczH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51033/devtools/browser/4a50365a-1587-4658-9f34-b2f4b240e346
+1640523394410	Marionette	INFO	Listening on port 51039
+1640523394619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 3774 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 2117 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 2687 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_FAILURE
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 513 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 7440 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 4649 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 1567 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=159196&userIdMacro=PM_UID&gdpr=0&gdpr_consent=&predirect=https%3A%2F%2Flive.primis.tech%2Flive%2FliveCS.php%3Fsource%3Dexternal%26csuuid%3D61c866dd9ffd9%26pixel%3D%26advId%3D91%26advUuid%3DPM_UID%26gdpr%3D0%26gdpr_consent%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?predirect=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Dpbm%26i%3D&gdpr=0&gdprConsent=, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?p=156344&predirect=https%3A%2F%2Fsync.technoratimedia.com%2Fservices%3Fsrv%3Dcs%26pid%3D45%26uid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?gdpr=0&gdpr_consent=&us_privacy=&predirect=https%3A%2F%2Fsync.console.adtarget.com.tr%2Fcsync%3Ft%3Da%26ep%3D307406%26extuid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?&p=156423&us_privacy=1---&predirect=https%3A%2F%2Fcms-xch-chicago.33across.com%2Fmatch%3Fliv%3Dg%26us_privacy%3D1---%26bidder_id%3D25%26external_user_id%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?&p=156423&us_privacy=&predirect=https%3A%2F%2Fcms-xch-chicago.33across.com%2Fmatch%3Fliv%3Dh%26us_privacy%3D%26bidder_id%3D25%26external_user_id%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?&p=156423&us_privacy=&predirect=https%3A%2F%2Fcms-xch-chicago.33across.com%2Fmatch%3Fliv%3Dh%26us_privacy%3D%26bidder_id%3D25%26external_user_id%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=160082, line 1: ReferenceError: CommonMeta is not defined
+[Child 7384, MediaDecoderStateMachine #1] WARNING: 29992fd43c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?predirect=https%3A%2F%2Fsync.quantumdex.io%2Fsetuid%3Fbidder%3Dpubmatic%26uid%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?predirect=https%3A%2F%2Frtb.gumgum.com%2Fusersync%3Fb%3Dpbm%26i%3D&gdpr=0&gdprConsent=, line 1: ReferenceError: CommonMeta is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://ads.pubmatic.com/AdServer/js/user_sync.html?&p=156423&us_privacy=1---&predirect=https%3A%2F%2Fcms-xch-chicago.33across.com%2Fmatch%3Fliv%3Dg%26us_privacy%3D1---%26bidder_id%3D25%26external_user_id%3D, line 1: ReferenceError: CommonMeta is not defined
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-d5N1L76OG6H12&moatClientLevel2=861664&moatClientLevel3=834765&moatClientLevel4=2114265&uid=skVOTa93Z2qbc3No2nNCcahBd2u8US9CCbw=, line 254: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://secure-ds.serving-sys.com/BurstingCachedScripts//Ad_2_215_3_0/ebStdBanner.js, line 119: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 3155 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js, line 9: Script terminated by timeout at:
+81/<@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:90815
+86/S.requestBids</</<@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:104254
+86/S.requestBids</<@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:104153
+86/S.requestBids<@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:103927
+f/i[r]@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:3124
+f@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:2977
+K/<@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:53:9175
+W@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:53:9101
+K@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:53:9122
+f@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:2977
+X@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:98749
+f@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:2977
+f@https://live.primis.tech/content/prebid/prebidVid.5.18.0_6.min.js:9:3155
+SekindoWaterfallLinearProcessor.prototype.processPrebidInternal@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:29865
+SekindoWaterfallLinearProcessor.prototype.processPrebid@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:21313
+SekindoWaterfallLinearProcessor.prototype.init@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:16614
+SekindoWaterfallLinearProcessor@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:339:11947
+SekindoAdsManager.prototype.generateProcessor@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:15147
+e@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:6355
+SekindoAdsManager.prototype.executeAdsSchedule@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:7534
+SekindoAdsManager.prototype.resumeAdsSchedule@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:5480
+SekindoAdsManager/<@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:339:7697
+SekindoBus.prototype.trigger@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:1807
+SekindoBus.prototype.triggerNote@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:1963
+SekindoFlowCapsule.prototype.do@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:342:32497
+SekindoFlowCapsule.prototype.then@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:342:31963
+SekindoFlowCapsule.prototype.setCallbacks@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:385
+SekindoFlowCapsule@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:339:4149
+SekindoFlowManager.prototype.generateCapsule@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:342:15159
+SekindoFlowCapsule.prototype.do/<@https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032312D31322D32365F31347D7B7331363739383434377D7B4333307D7B5363484A765A334A686257316C636D466F4C6D4E7662513D3D7D7B6266697265666F787D7B716465736B746F707D7B6F77696E646F77737D7B583330307D7B593233357D7B66317D7B4C31313830357DFEFE&userIpAddr=174.249.45.16&userUA=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A95.0%29+Gecko%2F20100101+Firefox%2F95.0&debugInformation=&isWePassGdpr=1&schain=1.0%2C1%21newormedia.com%2C10604%2C1&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=30&c2pWaitTime=10&isSinglePageFloatSupport=0&csuuid=61c866dd9ffd9&debugInfo=16798447_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=16798447&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=plembed2b19hmqupxtr&secondaryContent=&x=300&y=235&pubUrl=https%3A%2F%2Fprogrammerah.com%2Fsolved-selenium-python-send_key-error-list-object-has-no-attribute-31993%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=10&flow_bottomOffset=10&impGap=1&flow_width=400&flow_height=225&videoType=flow&gdpr=0&gdprConsent=&contentFeedId=&geoLati=30.2423&geoLong=-97.7672&vpTemplate=11805&flowMode=both&isRealPreroll=0&playerApiId=&isApp=0&ccpa=0&ccpaConsent=&subId=programmerah.com:343:147
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.tutorialguruji.com/python/attribute-error-list-object-has-no-attribute-send_keys-selenium/, line 51: SyntaxError: expected expression, got '&'
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-1RYxePXT9bCS2&moatClientLevel2=qfm&moatClientLevel3=b3024090-34ab-4b98-8835-a7c8e46781bf&moatClientLevel4=b7bd3978-093a-4a1b-be29-6f7f3c3c8f84&uid=xX7UjNVq_ab3LtOp6HjLp99My6roagRo-_0=, line 254: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 4489 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 2166 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 6100 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 4762 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 2912 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 6308 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 4766 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 7389 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 6541 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1640523785381	Marionette	INFO	Stopped listening on port 51039
+console.error: services.settings: 
+  Message: TypeError: NetworkError: Network request failed
+  Stack:
+    fetch/</request.onerror@resource://services-settings/Utils.jsm:131:26
+
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1640523789889	geckodriver	INFO	Listening on 127.0.0.1:63172
+1640523792967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63173" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileDvcCDn"
+1640523793621	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileDvcCDn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63173/devtools/browser/c904426c-6832-42b3-8d03-73841004dc4f
+1640523798621	Marionette	INFO	Listening on port 63180
+1640523798851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640523885400	Marionette	INFO	Stopped listening on port 63180
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640534336537	geckodriver	INFO	Listening on 127.0.0.1:54213
+1640534339587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54214" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilePdxUm5"
+1640534340316	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilePdxUm5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54214/devtools/browser/09426aad-4734-41fa-a872-dc2958e63e42
+1640534345551	Marionette	INFO	Listening on port 54221
+1640534346006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640534489931	Marionette	INFO	Stopped listening on port 54221
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640535250786	geckodriver	INFO	Listening on 127.0.0.1:51839
+1640535253876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51840" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileiryoC9"
+1640535254562	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileiryoC9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51840/devtools/browser/25f94b1d-1b6d-4dcd-b35a-68fdee052328
+1640535259802	Marionette	INFO	Listening on port 51846
+1640535260264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1640535441048	Marionette	INFO	Stopped listening on port 51846
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640535444470	geckodriver	INFO	Listening on 127.0.0.1:59495
+1640535447560	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59496" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilefXs1qV"
+1640535448249	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilefXs1qV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59496/devtools/browser/0ec1fca5-5d1f-4ead-a9ff-19381781e46f
+1640535453700	Marionette	INFO	Listening on port 59501
+1640535453947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1640535593895	Marionette	INFO	Stopped listening on port 59501
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640535631847	geckodriver	INFO	Listening on 127.0.0.1:59643
+1640535634956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59644" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile5d3QlC"
+1640535635640	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile5d3QlC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59644/devtools/browser/4a7711fa-8146-4d95-8c59-0f95e099bba3
+1640535641057	Marionette	INFO	Listening on port 59649
+1640535641352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640535644660	Marionette	INFO	Stopped listening on port 59649
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.error: QuickSuggest: (new Error("Shutdown, aborting read-only worker requests.", "resource://services-settings/RemoteSettingsWorker.jsm", 143))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000B,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640535658576	geckodriver	INFO	Listening on 127.0.0.1:59713
+1640535661664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59714" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileJpr7ie"
+1640535662326	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileJpr7ie\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59714/devtools/browser/591f8e99-7d28-4957-9e7b-8ca82b56c1e1
+1640535667724	Marionette	INFO	Listening on port 59719
+1640535668073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640535724964	Marionette	INFO	Stopped listening on port 59719
+JavaScript error: https://tpc.googlesyndication.com/sodar/Enqz_20U.html, line 35: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390147,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390147,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x230030,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+1640535792087	geckodriver	INFO	Listening on 127.0.0.1:59873
+1640535795152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59874" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileai8Wl1"
+1640535796031	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileai8Wl1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59874/devtools/browser/cdb92544-e89f-42ad-865c-ebada14ada5c
+1640535801039	Marionette	INFO	Listening on port 59879
+1640535801546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640535839458	Marionette	INFO	Stopped listening on port 59879
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640537367404	geckodriver	INFO	Listening on 127.0.0.1:63561
+1640537370493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63562" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileyGviwP"
+1640537371213	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileyGviwP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63562/devtools/browser/ccff391d-7ced-4925-ad5b-357fadcd4ee8
+1640537376088	Marionette	INFO	Listening on port 63567
+1640537376364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640537394635	Marionette	INFO	Stopped listening on port 63567
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640632448427	geckodriver	INFO	Listening on 127.0.0.1:54097
+1640632451512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54098" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileA2k9Lx"
+1640632452383	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileA2k9Lx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54098/devtools/browser/f64a4d6e-0508-471e-b40e-4d1ee4779789
+1640632457818	Marionette	INFO	Listening on port 54104
+1640632457917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640632558736	Marionette	INFO	Stopped listening on port 54104
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640633790632	geckodriver	INFO	Listening on 127.0.0.1:50195
+1640633793709	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50196" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile7xHi8N"
+1640633794599	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile7xHi8N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50196/devtools/browser/46251aa3-8005-431e-aff7-0da3f430e003
+1640633799493	Marionette	INFO	Listening on port 50202
+1640633799597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640633838423	Marionette	INFO	Stopped listening on port 50202
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640633901379	geckodriver	INFO	Listening on 127.0.0.1:51147
+1640633904457	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51148" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofiledr48H7"
+1640633905175	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofiledr48H7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51148/devtools/browser/af1c4e2a-260e-47d9-a3cb-e62a2aa825f1
+1640633909939	Marionette	INFO	Listening on port 51153
+1640633910329	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640633924119	Marionette	INFO	Stopped listening on port 51153
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: QuickSuggest: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 131))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640633952351	geckodriver	INFO	Listening on 127.0.0.1:56256
+1640633955431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56257" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileGyQoHQ"
+1640633956195	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileGyQoHQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56257/devtools/browser/9e64acbd-0657-4a98-9703-8cb86669830d
+1640633961659	Marionette	INFO	Listening on port 56262
+1640633961818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640633973394	Marionette	INFO	Stopped listening on port 56262
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: QuickSuggest: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 131))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640634038262	geckodriver	INFO	Listening on 127.0.0.1:56358
+1640634041338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56359" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileDNhtHf"
+1640634042019	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileDNhtHf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56359/devtools/browser/99100eac-9692-4b80-99ee-4166f7694646
+1640634047436	Marionette	INFO	Listening on port 56364
+1640634047739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640634071180	Marionette	INFO	Stopped listening on port 56364
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640634121443	geckodriver	INFO	Listening on 127.0.0.1:59119
+1640634124489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59120" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileS5BadE"
+1640634125329	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileS5BadE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59120/devtools/browser/78cfe45b-e336-4e1c-a674-926f48304d3c
+1640634130302	Marionette	INFO	Listening on port 59126
+1640634130374	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640634147415	Marionette	INFO	Stopped listening on port 59126
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640634195888	geckodriver	INFO	Listening on 127.0.0.1:59201
+1640634198963	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59202" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileh8E6Ul"
+1640634199661	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileh8E6Ul\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59202/devtools/browser/1e94d94c-fe4d-4f40-8e13-129aac06345f
+1640634204614	Marionette	INFO	Listening on port 59207
+1640634204837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640634265841	Marionette	INFO	Stopped listening on port 59207
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640634330851	geckodriver	INFO	Listening on 127.0.0.1:52250
+1640634333956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52251" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileu8AClP"
+1640634334683	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileu8AClP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52251/devtools/browser/cc984481-c60b-493f-906b-b9da575838ee
+1640634339473	Marionette	INFO	Listening on port 52256
+1640634339849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640634348932	Marionette	INFO	Stopped listening on port 52256
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640634793710	geckodriver	INFO	Listening on 127.0.0.1:60176
+1640634796794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60177" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilegVrhdx"
+1640634797493	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilegVrhdx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60177/devtools/browser/a74e8e0c-05f7-4e4d-92a7-1b561aa784c3
+1640634802924	Marionette	INFO	Listening on port 60182
+1640634803214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640634813275	Marionette	INFO	Stopped listening on port 60182
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640634848549	geckodriver	INFO	Listening on 127.0.0.1:56050
+1640634851629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56051" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileHYwiAL"
+1640634852295	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileHYwiAL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56051/devtools/browser/b09ad23b-f8a4-4005-8aac-513acf97ac93
+1640634857348	Marionette	INFO	Listening on port 56056
+1640634857498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640634923720	Marionette	INFO	Stopped listening on port 56056
+1640634934282	geckodriver	INFO	Listening on 127.0.0.1:56138
+1640634937366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56139" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileEvHiJv"
+1640634938100	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileEvHiJv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56139/devtools/browser/9b084c4e-9732-4951-ae36-cf635f207611
+1640634943338	Marionette	INFO	Listening on port 56144
+1640634943776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640634983567	Marionette	INFO	Stopped listening on port 56144
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640635258538	geckodriver	INFO	Listening on 127.0.0.1:55215
+1640635261637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55216" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileXRttUy"
+1640635262366	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileXRttUy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55216/devtools/browser/18276645-dea5-4fb8-a69e-8d37992b7a5c
+1640635267712	Marionette	INFO	Listening on port 54434
+1640635268037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640635326444	Marionette	INFO	Stopped listening on port 54434
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640635750540	geckodriver	INFO	Listening on 127.0.0.1:57226
+1640635753615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57227" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileETEfJC"
+1640635754330	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileETEfJC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57227/devtools/browser/4d7f9f24-57b5-4135-a38c-278497c171b0
+1640635759666	Marionette	INFO	Listening on port 57232
+1640635760044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640635768815	Marionette	INFO	Stopped listening on port 57232
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640635859474	geckodriver	INFO	Listening on 127.0.0.1:57312
+1640635862544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57313" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilez3RFkY"
+1640635863213	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilez3RFkY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57313/devtools/browser/99455381-6808-4cf0-92dc-2f3232d1adc7
+1640635868495	Marionette	INFO	Listening on port 57318
+1640635868930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640635878516	Marionette	INFO	Stopped listening on port 57318
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640636921951	geckodriver	INFO	Listening on 127.0.0.1:52218
+1640636925052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52219" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileWlUYFT"
+1640636925735	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileWlUYFT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52219/devtools/browser/5578aa35-56c7-48cd-ba60-aef4f0a934cd
+1640636931065	Marionette	INFO	Listening on port 52224
+1640636931429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640636941013	Marionette	INFO	Stopped listening on port 52224
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390116,name=PContent::Msg_AccumulateChildHistograms) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39011B,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640637785742	geckodriver	INFO	Listening on 127.0.0.1:52063
+1640637788828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52064" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilegfEqb9"
+1640637789521	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilegfEqb9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52064/devtools/browser/07a0ffd0-488a-4775-9a11-746b2d61f2a0
+1640637794681	Marionette	INFO	Listening on port 52069
+1640637795214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640637802867	Marionette	INFO	Stopped listening on port 52069
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640683244668	geckodriver	INFO	Listening on 127.0.0.1:64405
+1640683247894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64406" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileBFb44W"
+1640683248436	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileBFb44W\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64406/devtools/browser/481e4e6a-8b84-4a72-8747-bdc8ff3ce07a
+1640683251765	Marionette	INFO	Listening on port 64415
+1640683251940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640683336573	Marionette	INFO	Stopped listening on port 64415
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640683514119	geckodriver	INFO	Listening on 127.0.0.1:64601
+1640683517173	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64602" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileK5NQde"
+1640683517550	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileK5NQde\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64602/devtools/browser/597c99b2-6015-461d-8399-16fee6efe0fd
+1640683520675	Marionette	INFO	Listening on port 64607
+1640683520875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640683545876	Marionette	INFO	Stopped listening on port 64607
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640683993416	geckodriver	INFO	Listening on 127.0.0.1:64823
+1640683996491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64824" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilej69JAd"
+1640683996885	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilej69JAd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64824/devtools/browser/74ebb20d-2a9d-4efb-9ab0-613298ee4b71
+1640683999903	Marionette	INFO	Listening on port 64829
+1640684000185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640684030432	Marionette	INFO	Stopped listening on port 64829
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: QuickSuggest: (new Error("Shutdown, aborting read-only worker requests.", "resource://services-settings/RemoteSettingsWorker.jsm", 143))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640686654780	geckodriver	INFO	Listening on 127.0.0.1:50630
+1640686657824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50631" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileWuLiZh"
+1640686658226	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileWuLiZh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50631/devtools/browser/730d9366-6fba-49ce-8139-9feee93827ed
+1640686661365	Marionette	INFO	Listening on port 50639
+1640686661520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640686720072	Marionette	INFO	Stopped listening on port 50639
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640686726680	geckodriver	INFO	Listening on 127.0.0.1:50723
+1640686729751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50724" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofiled6Ypy7"
+1640686730178	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofiled6Ypy7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50724/devtools/browser/a0247a91-a29c-477b-ae44-afa824d96201
+1640686733386	Marionette	INFO	Listening on port 50729
+1640686733454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: , line 0: NS_ERROR_FAILURE
+1640686830080	Marionette	INFO	Stopped listening on port 50729
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640687105281	geckodriver	INFO	Listening on 127.0.0.1:51117
+1640687108361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51118" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileinbSqo"
+1640687108778	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileinbSqo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51118/devtools/browser/2e89f276-4e14-438a-bb87-c159e7c848d6
+1640687111854	Marionette	INFO	Listening on port 51123
+1640687112059	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640687128776	Marionette	INFO	Stopped listening on port 51123
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+1640952846687	geckodriver	INFO	Listening on 127.0.0.1:61716
+1640952849754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61717" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilegT65gk"
+1640952850274	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilegT65gk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61717/devtools/browser/bb4537d4-06f3-4939-af6b-348d15d5c52f
+1640952853702	Marionette	INFO	Listening on port 61724
+1640952853956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640952854165	Marionette	INFO	Stopped listening on port 61724
+console.warn: services.settings: main/quicksuggest sync interrupted by shutdown
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640952856876	geckodriver	INFO	Listening on 127.0.0.1:61753
+1640952859961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61754" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileJWqqyb"
+1640952860355	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileJWqqyb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61754/devtools/browser/dce7131d-9721-465c-ab29-9ef99aef9fbd
+1640952863546	Marionette	INFO	Listening on port 61761
+1640952863654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640952863925	Marionette	INFO	Stopped listening on port 61761
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NS_ERROR_FAILURE
