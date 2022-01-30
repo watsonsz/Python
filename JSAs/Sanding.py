@@ -20,6 +20,13 @@ JobActivity = "Sanding"
 Pagevar = "1"
 ofvar = "1"
 
+#names
+reviewed = driver.find_element(By.XPATH, '//*[@id="field114239191"]')
+reviewed.send_keys(deckhands)
+
+supervisor = driver.find_element(By.XPATH, '//*[@id="field114239192"]')
+supervisor.send_keys(captain)
+
 #General Information Fill
 email = driver.find_element(By.XPATH,'//*[@id="field114239152"]')
 email.send_keys(VesselEmail)

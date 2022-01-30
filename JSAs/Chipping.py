@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 import time
 from JsaVariables import *
-s=Service('D:\git-hub Repos\Python\geckodriver.exe')
+s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
 #open Webpage
@@ -19,6 +19,13 @@ JobSite = "Miss Edmay"
 JobActivity = "Chipping and Buffing"
 Pagevar = "1"
 ofvar = "1"
+
+#names
+reviewed = driver.find_element(By.XPATH, '//*[@id="field114239191"]')
+reviewed.send_keys(deckhands)
+
+supervisor = driver.find_element(By.XPATH, '//*[@id="field114239192"]')
+supervisor.send_keys(captain)
 
 #General Information Fill
 email = driver.find_element(By.XPATH,'//*[@id="field114239152"]')

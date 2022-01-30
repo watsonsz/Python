@@ -14,10 +14,10 @@ time.sleep(2)
 
 #---------------------General Information variables
 
-VesselEmail = "missedmay@centralboat.com"
-JobSite = "Miss Edmay"
+VesselEmail = "mrthomas@centralboat.com"
+JobSite = "Mr.Thomas"
 #------------------HAL YOU HAVE TO CHANGE THE XXXXXX TO THE TYPE OF DRILL
-scene= "xxxxxxxxxxxx"
+scene= "Security Drill"
 
 #---------------------General Information Fill(DO NOT TOUCH)
 email = driver.find_element(By.XPATH,'//*[@id="field106104796"]')
@@ -25,7 +25,7 @@ email.send_keys(VesselEmail)
 
 ship = driver.find_element(By.XPATH, '//*[@id="field105490179"]')
 ship_object = Select(ship)
-ship_object.select_by_visible_text('MISS EDMAY')
+ship_object.select_by_visible_text('MR THOMAS')
 
 drill = driver.find_element(By.XPATH, '//*[@id="field105490825"]')
 drill.send_keys(scene)
@@ -35,8 +35,8 @@ drill.send_keys(scene)
 #fire = driver.find_element(By.XPATH, '//*[@id="field105490198_1"]')
 #fire.click()
 
-# security = driver.find_element(By.XPATH, '//*[@id="field105490198_2"]')
-# security.click()
+security = driver.find_element(By.XPATH, '//*[@id="field105490198_2"]')
+security.click()
 
 # manoverboard = driver.find_element(By.XPATH, '//*[@id="field105490198_3"]')
 # manoverboard.click()
@@ -62,8 +62,8 @@ drill.send_keys(scene)
 
 #---------------------Equipment Used:::Uncomment Equipment used
 
-General = driver.find_element(By.XPATH, '//*[@id="field105490216_1"]')
-General.click()
+#General = driver.find_element(By.XPATH, '//*[@id="field105490216_1"]')
+#General.click()
 
 # extinguisher = driver.find_element(By.XPATH, '//*[@id="field105490216_2"]')
 # extinguisher.click()
@@ -87,4 +87,4 @@ General.click()
 #---------------------Drill Actions
 
 DrillComments = driver.find_element(By.XPATH, '//*[@id="field105491260"]')
-DrillComments.send_keys('')
+DrillComments.send_keys('Security Drill, changing from Marsec 1 to Marsec 2. All Radios Operational. Make 15 minute security checks around the vessel. Suspend all loading on or off  of cargo on the boat. Untie Vessel and move away from the dock.')

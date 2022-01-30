@@ -1,4 +1,9 @@
 import time
+#names
+deckhands = "Steven Watson, Dylan Feurtado"
+captain = "Jason Mayon"
+
+
 #steps variable:::::::::
 gather = "Gather Equipment and Tools"
 stow = "Stow Equipment and Tools"

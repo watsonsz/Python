@@ -14,10 +14,10 @@ time.sleep(2)
 
 #---------------------General Information variables
 
-VesselEmail = "missedmay@centralboat.com"
-JobSite = "Miss Edmay"
+VesselEmail = "mrthomas@centralboat.com"
+JobSite = "Mr.Thomas"
 #------------------HAL YOU HAVE TO CHANGE THE XXXXXX TO THE TYPE OF DRILL
-scene= "xxxxxxxxxxxx"
+scene= "Spill(Fuel Hose Leaking)"
 
 #---------------------General Information Fill(DO NOT TOUCH)
 email = driver.find_element(By.XPATH,'//*[@id="field106104796"]')
@@ -25,7 +25,7 @@ email.send_keys(VesselEmail)
 
 ship = driver.find_element(By.XPATH, '//*[@id="field105490179"]')
 ship_object = Select(ship)
-ship_object.select_by_visible_text('MISS EDMAY')
+ship_object.select_by_visible_text('MR THOMAS')
 
 drill = driver.find_element(By.XPATH, '//*[@id="field105490825"]')
 drill.send_keys(scene)
@@ -44,8 +44,8 @@ drill.send_keys(scene)
 # collision = driver.find_element(By.XPATH, '//*[@id="field105490198_4"]')
 # collision.click()
 
-# spill = driver.find_element(By.XPATH, '//*[@id="field105490198_5"]')
-# spill.click()
+spill = driver.find_element(By.XPATH, '//*[@id="field105490198_5"]')
+spill.click()
 
 # abandon = driver.find_element(By.XPATH, '//*[@id="field105490198_6"]')
 # abandon.click()
@@ -62,8 +62,8 @@ drill.send_keys(scene)
 
 #---------------------Equipment Used:::Uncomment Equipment used
 
-General = driver.find_element(By.XPATH, '//*[@id="field105490216_1"]')
-General.click()
+#General = driver.find_element(By.XPATH, '//*[@id="field105490216_1"]')
+#General.click()
 
 # extinguisher = driver.find_element(By.XPATH, '//*[@id="field105490216_2"]')
 # extinguisher.click()
@@ -77,8 +77,8 @@ General.click()
 # bouys = driver.find_element(By.XPATH, '//*[@id="field105490216_5"]')
 # bouys.click()
 
-# spillkit = driver.find_element(By.XPATH, '//*[@id="field105490216_6"]')
-# spillkit.click()
+spillkit = driver.find_element(By.XPATH, '//*[@id="field105490216_6"]')
+spillkit.click()
 
 # other_equip = driver.find_element(By.XPATH, '//*[@id="field105490216_7"]')
 # other_equip.click()
@@ -87,4 +87,4 @@ General.click()
 #---------------------Drill Actions
 
 DrillComments = driver.find_element(By.XPATH, '//*[@id="field105491260"]')
-DrillComments.send_keys('')
+DrillComments.send_keys('Fuel Hose busted while transferring fuel. Shut off fuel pump on deck. Secure all valves and informed Captain on Watch and person recieving fuel. Use emergency spill kit/oil boom to contain flow')
