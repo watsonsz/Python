@@ -47,3 +47,51 @@ DevTools listening on ws://localhost:53463/devtools/browser/64c8b22e-4f27-41d5-b
 1643524665441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1643524705695	Marionette	INFO	Stopped listening on port 53469
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643626106458	geckodriver	INFO	Listening on 127.0.0.1:51699
+1643626109512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51700" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileMo0Mw9"
+1643626109760	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileMo0Mw9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51700/devtools/browser/26d9c3a6-6ea4-4631-8e3d-2354cd02a661
+1643626111295	Marionette	INFO	Listening on port 51733
+1643626111555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://static.formstack.com/forms/js/3/jquery-ui.min_42a497cb9f.js, line 6: ReferenceError: jQuery is not defined
+JavaScript error: https://static.formstack.com/forms/js/3/scripts_0d92d709f3.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://static.formstack.com/forms/js/3/analytics_3ca069828f.js, line 1: ReferenceError: Formstack is not defined
+JavaScript error: https://alternasec.formstack.com/forms/emergency_drill_and_training_reporting_form, line 3287: ReferenceError: Formstack is not defined
+1643626421680	Marionette	INFO	Stopped listening on port 51733
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643626470784	geckodriver	INFO	Listening on 127.0.0.1:52179
+1643626473862	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52180" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileGrJ8ly"
+1643626474103	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileGrJ8ly\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52180/devtools/browser/9c23f1b4-d786-4bac-b35a-ffe1737d1d1b
+1643626475705	Marionette	INFO	Listening on port 52187
+1643626475903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: https://www.cbrtraffic.com/bundles/MsAjaxJs?v=w8cKDEk-YHxfmzhAZw5Tzhf_Hs8_MNDLcXMUB1Oq_Gk1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 40: Error: ASP.NET Ajax client-side framework failed to load.
+JavaScript error: https://www.cbrtraffic.com/bundles/WebFormsJs?v=1LgJW-2mBjl-hTkHYcgIzu_UjH0HZH_rdv34PfFLQFU1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 63: ReferenceError: Sys is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cbrtraffic.com"
+JavaScript error: https://www.cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 1: ReferenceError: WebForm_DoPostBackWithOptions is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+JavaScript error: https://www.cbrtraffic.com/Devboats/Logs.aspx, line 141: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1643626755383	Marionette	INFO	Stopped listening on port 52187
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

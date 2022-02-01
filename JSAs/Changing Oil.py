@@ -1,7 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.support.select import Select
 import time
+from datetime import datetime
 from JsaVariables import *
 s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
@@ -14,12 +16,10 @@ time.sleep(2)
 
 #General Information variables
 
-VesselEmail = "missedmay@centralboat.com"
-JobSite = "Miss Edmay"
 JobActivity = "Changing Oil"
 Pagevar = "1"
 ofvar = "1"
-
+tday = datetime.now()
 #names
 reviewed = driver.find_element(By.XPATH, '//*[@id="field114239191"]')
 reviewed.send_keys(deckhands)
@@ -42,6 +42,19 @@ page.send_keys(Pagevar)
 
 ofBox = driver.find_element(By.XPATH, '//*[@id="field114239190"]')
 ofBox.send_keys(ofvar)
+
+#date fill
+monthbox = driver.find_element(By.XPATH, '//*[@id="field114239183M"]')
+monthbox_object = Select(monthbox)
+monthbox_object.select_by_visible_text(tday.strftime('%b'))
+
+daybox =driver.find_element(By.XPATH, '//*[@id="field114239183D"]')
+daybox_object=Select(daybox)
+daybox_object.select_by_visible_text(tday.strftime('%d'))
+
+yearbox = driver.find_element(By.XPATH, '//*[@id="field114239183Y"]')
+yearbox_object = Select(yearbox)
+yearbox_object.select_by_visible_text(tday.strftime('%Y'))
 
 #Basic Steps boxes
 

@@ -168,3 +168,66 @@ DevTools listening on ws://localhost:55517/devtools/browser/d870b4d4-28b0-4c54-b
 1642906967514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1642906981931	Marionette	INFO	Stopped listening on port 55527
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643563634555	geckodriver	INFO	Listening on 127.0.0.1:60161
+1643563637681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60166" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileGD0EHr"
+1643563637994	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileKnRrjS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60165/devtools/browser/c539a714-8a85-4760-a13a-dcc5b49776cd
+1643563639989	Marionette	INFO	Listening on port 60180
+1643563640395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1643563716695	Marionette	INFO	Stopped listening on port 60180
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 8620, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:565
+s: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1643563698515	Marionette	INFO	Stopped listening on port 60181
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643626096465	geckodriver	INFO	Listening on 127.0.0.1:51589
+1643626099565	mozrunner::runner	INFO	Running command: "C:\\P1643626100114	mozrunner::runner	INFO	Running command: "C:\\P1643626102298	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51603" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilezntcZ0"
+1643626102550	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilezntcZ0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51603/devtools/browser/f8c9accc-c4a6-48fa-8b9d-1bbb05473c14
+1643626104167	Marionettconsole.error: Region.jsm: "Error fetching region" (new Erroconsole.error: Region.jsm: "Error fetching region" (new Erroconsole.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))JavaScript error: https://static.formstack.com/forms/js/3/jquery-ui.min_42a497cb9f.js, line 6: ReferenceError: jQuery isconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1643626466706	Marionette	INFO	Stopped listening on port 51659
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1643626387286	Marionette	INFO	Stopped listening on port 51611
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+te to send/recv, messages will be lost
+
+1643702544318	geckodriver	INFO	Listening on 127.0.0.1:58306
+1643702547443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58307" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileJMRRnP"
+1643702547727	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileJMRRnP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58307/devtools/browser/7323882b-2eea-4b75-ae34-d1ef9b96a9fd
+1643702549379	Marionette	INFO	Listening on port 58313
+1643702549509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://discuss.codecademy.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://discuss.codecademy.com"
+JavaScript error: https://discuss.codecademy.com/t/can-i-display-the-month-name-instead-of-a-number/337967 line 468 > injectedScript, line 1: TypeError: Discourse.User.current() is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://discuss.codecademy.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://discuss.codecademy.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://discuss.codecademy.com"
+JavaScript error: https://discuss.codecademy.com/t/can-i-display-the-month-name-instead-of-a-number/337967 line 468 > injectedScript, line 1: TypeError: Discourse.User.current() is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://discuss.codecademy.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"

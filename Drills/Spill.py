@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.select import Select
 import time
+from datetime import datetime
 s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
@@ -15,7 +16,7 @@ time.sleep(2)
 #---------------------General Information variables
 
 VesselEmail = "mrthomas@centralboat.com"
-JobSite = "Mr.Thomas"
+tday = datetime.now()
 #------------------HAL YOU HAVE TO CHANGE THE XXXXXX TO THE TYPE OF DRILL
 scene= "Spill(Fuel Hose Leaking)"
 
@@ -30,6 +31,18 @@ ship_object.select_by_visible_text('MR THOMAS')
 drill = driver.find_element(By.XPATH, '//*[@id="field105490825"]')
 drill.send_keys(scene)
 
+#date fill
+monthbox = driver.find_element(By.XPATH, '//*[@id="field105490189M"]')
+monthbox_object = Select(monthbox)
+monthbox_object.select_by_visible_text(tday.strftime('%b'))
+
+daybox =driver.find_element(By.XPATH, '//*[@id="field105490189D"]')
+daybox_object=Select(daybox)
+daybox_object.select_by_visible_text(tday.strftime('%d'))
+
+yearbox = driver.find_element(By.XPATH, '//*[@id="field105490189Y"]')
+yearbox_object = Select(yearbox)
+yearbox_object.select_by_visible_text(tday.strftime('%Y'))
 #---------------------drill type::::Uncomment Drill needed
 
 #fire = driver.find_element(By.XPATH, '//*[@id="field105490198_1"]')

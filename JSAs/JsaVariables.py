@@ -3,6 +3,9 @@ import time
 deckhands = "Steven Watson, Dylan Feurtado"
 captain = "Jason Mayon"
 
+#vessel information
+VesselEmail= "mrthomas@centralboat.com"
+JobSite = "Mr.Thomas"
 
 #steps variable:::::::::
 gather = "Gather Equipment and Tools"
