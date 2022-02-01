@@ -1,7 +1,6 @@
-This is a web-automation using Python and Selenium Web Driver to automate administrative tasks onboard Tugboats for the company Central Boat Rentals. So far there are 3 parts
+This is a web-automation using Python and Selenium Web Driver to automate administrative tasks onboard Tugboats for the company Central Boat Rentals. So far there are 2 parts
 
 01. JSA=Job Environmental & Safety Analysis
         This form is used during the morning and evening meetings/ as-needed where we go over the steps for the upcoming evolutions, discuss possible hazards, and what steps we can take to mitigate those hazards.
 02. Drills
         This form is used to describe the standard procedures during some kind of damage-control evolution
-03. Weekly Training Answer Key
