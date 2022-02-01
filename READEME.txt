@@ -4,3 +4,21 @@ This is a web-automation using Python and Selenium Web Driver to automate admini
         This form is used during the morning and evening meetings/ as-needed where we go over the steps for the upcoming evolutions, discuss possible hazards, and what steps we can take to mitigate those hazards.
 02. Drills
         This form is used to describe the standard procedures during some kind of damage-control evolution
+
+Potential Additions:
+-Training Roster automation
+
+Ideas: Create an APP that contains drop down lists to select and send forms
+        Profile: Can set up profiles containing boat name and crew make up, would need intuitive change abilities.
+        IE: Crew profile 1
+                name
+                name
+                name
+                name
+                [edit]
+        Drop Down 1: Drill, Training, or JSA
+        Drop Down 2: Select Applicable File
+
+Potentially Asked Questions (PAQ)
+1. Why are there notes to a specific person in the comments of your code?
+        Because This code was to help not only myself, but my crew, and I wanted to make it easy if my regular crewmate, Hal, needed to make a new program using one of my Templates.
