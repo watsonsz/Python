@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.select import Select
 import time
-from datetime import datetime
+from DrillVariables import *
 s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
@@ -12,11 +12,6 @@ driver = webdriver.Firefox(service=s)
 driver.get('https://alternasec.formstack.com/forms/emergency_drill_and_training_reporting_form')
 
 time.sleep(2)
-
-#---------------------General Information variables
-
-VesselEmail = "mrthomas@centralboat.com"
-tday = datetime.now()
 #------------------HAL YOU HAVE TO CHANGE THE XXXXXX TO THE TYPE OF DRILL
 scene= "Fire in Engine Room"
 
@@ -26,7 +21,7 @@ email.send_keys(VesselEmail)
 
 ship = driver.find_element(By.XPATH, '//*[@id="field105490179"]')
 ship_object = Select(ship)
-ship_object.select_by_visible_text('MISS EDMAY')
+ship_object.select_by_visible_text(Vessel)
 
 drill = driver.find_element(By.XPATH, '//*[@id="field105490825"]')
 drill.send_keys(scene)
@@ -101,3 +96,16 @@ firehose.click()
 
 DrillComments = driver.find_element(By.XPATH, '//*[@id="field105491260"]')
 DrillComments.send_keys('Sound General Alarm, call out "fire, fire, FIre In Engine room." Crew mustered to wheelhouse with lifejackets donned and handheld radios. Closed blower and stack vents. Pulled fuel shut off valve. Closed Engine room door. Charged firehoses and brought b-5 extinguisher to engine room door. Fire contained. Discussed drill with crew')
+
+#Names Fill
+boss = driver.find_element(By.XPATH, '//*[@id="field105491294"]')
+boss.send_keys(Captain)
+
+Relief = driver.find_element(By.XPATH, '//*[@id="field105500134"]')
+Relief.send_keys(Mate)
+
+Deckhand1 = driver.find_element(By.XPATH, '//*[@id="field105500131"]')
+Deckhand1.send_keys(Deck1)
+
+Deckhand2 = driver.find_element(By.XPATH, '//*[@id="field105500081"]')
+Deckhand2.send_keys(Deck2)

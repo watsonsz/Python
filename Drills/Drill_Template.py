@@ -2,8 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.select import Select
+from DrillVariables import *
 import time
-from datetime import datetime
+
 s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
@@ -13,10 +14,6 @@ driver.get('https://alternasec.formstack.com/forms/emergency_drill_and_training_
 
 time.sleep(2)
 
-#---------------------General Information variables
-
-VesselEmail = "mrthomas@centralboat.com"
-tday = datetime.now()
 #------------------HAL YOU HAVE TO CHANGE THE XXXXXX TO THE TYPE OF DRILL
 scene= "xxxxxxxxxxxx"
 
@@ -26,7 +23,7 @@ email.send_keys(VesselEmail)
 
 ship = driver.find_element(By.XPATH, '//*[@id="field105490179"]')
 ship_object = Select(ship)
-ship_object.select_by_visible_text('MISS EDMAY')
+ship_object.select_by_visible_text(Vessel)
 
 drill = driver.find_element(By.XPATH, '//*[@id="field105490825"]')
 drill.send_keys(scene)
@@ -101,3 +98,16 @@ General.click()
 
 DrillComments = driver.find_element(By.XPATH, '//*[@id="field105491260"]')
 DrillComments.send_keys('')
+
+#Names Fill
+boss = driver.find_element(By.XPATH, '//*[@id="field105491294"]')
+boss.send_keys(Captain)
+
+Relief = driver.find_element(By.XPATH, '//*[@id="field105500134"]')
+Relief.send_keys(Mate)
+
+Deckhand1 = driver.find_element(By.XPATH, '//*[@id="field105500131"]')
+Deckhand1.send_keys(Deck1)
+
+Deckhand2 = driver.find_element(By.XPATH, '//*[@id="field105500081"]')
+Deckhand2.send_keys(Deck2)

@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.select import Select
 import time
-from datetime import datetime
+from DrillVariables import *
 s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
@@ -12,11 +12,6 @@ driver = webdriver.Firefox(service=s)
 driver.get('https://alternasec.formstack.com/forms/emergency_drill_and_training_reporting_form')
 
 time.sleep(2)
-
-#---------------------General Information variables
-
-VesselEmail = "mrthomas@centralboat.com"
-tday = datetime.now()
 
 #------------------HAL YOU HAVE TO CHANGE THE XXXXXX TO THE TYPE OF DRILL
 scene= "Collision/Allision"
@@ -27,7 +22,7 @@ email.send_keys(VesselEmail)
 
 ship = driver.find_element(By.XPATH, '//*[@id="field105490179"]')
 ship_object = Select(ship)
-ship_object.select_by_visible_text('MISS EDMAY')
+ship_object.select_by_visible_text(Vessel)
 
 drill = driver.find_element(By.XPATH, '//*[@id="field105490825"]')
 drill.send_keys(scene)
@@ -103,3 +98,16 @@ General.click()
 
 DrillComments = driver.find_element(By.XPATH, '//*[@id="field105491260"]')
 DrillComments.send_keys("Sound 5 short blasts on horn. Sound General ALarm. Crew muster to wheel house with life jackets donned and handheld radios. Notify Traffic if blocking. Attend to any injured crew. Assess any damages to boat/dock/barge. Obtain info from other boat/dock. Notify USCG. Take photos of all damages. Captain notify campany QI prior to acting as company representative. Fill out incident report. If any injuries occur refer to SOP 5101")
+
+#Names Fill
+boss = driver.find_element(By.XPATH, '//*[@id="field105491294"]')
+boss.send_keys(Captain)
+
+Relief = driver.find_element(By.XPATH, '//*[@id="field105500134"]')
+Relief.send_keys(Mate)
+
+Deckhand1 = driver.find_element(By.XPATH, '//*[@id="field105500131"]')
+Deckhand1.send_keys(Deck1)
+
+Deckhand2 = driver.find_element(By.XPATH, '//*[@id="field105500081"]')
+Deckhand2.send_keys(Deck2)

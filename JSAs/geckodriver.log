@@ -231,3 +231,14 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: https://discuss.codecademy.com/t/can-i-display-the-month-name-instead-of-a-number/337967 line 468 > injectedScript, line 1: TypeError: Discourse.User.current() is null
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://discuss.codecademy.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1643883934500	geckodriver	INFO	Listening on 127.0.0.1:49812
+1643883937557	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49813" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileXtqiZD"
+1643883937792	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileXtqiZD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49813/devtools/browser/bd87b85c-833e-4d73-83da-74f102706a3d
+1643883939435	Marionette	INFO	Listening on port 49820
+1643883939634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643883943718	Marionette	INFO	Stopped listening on port 49820
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+console.error: QuickSuggest: (new Error("Shutdown, aborting read-only worker requests.", "resource://services-settings/RemoteSettingsWorker.jsm", 143))

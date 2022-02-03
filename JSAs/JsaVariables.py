@@ -1,7 +1,7 @@
 import time
 #names
-deckhands = "Steven Watson, Dylan Feurtado"
-captain = "Jason Mayon"
+deckhands = "Steven Watson, Hal Edwards"
+captain = "Percy Boudwin III"
 
 #vessel information
 VesselEmail= "mrthomas@centralboat.com"
