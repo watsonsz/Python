@@ -1,12 +1,4 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.support.select import Select
-import time
-from datetime import datetime
 from JsaVariables import *
-s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
-driver = webdriver.Firefox(service=s)
 
 #open Webpage
 
@@ -117,38 +109,33 @@ Mb3.send_keys (slip, pinch)
 # Mb6 = driver.find_element(By.XPATH, '//*[@id="field114239219"]')
 # Mb6.send_keys ("Test")
 
-#PPE Buttons::::Delete the '#' to click the button
+#Safety Equipment
+hardhat = driver.find_element(By.XPATH, '//*[@id="field114239292_1"]')
+driver.execute_script("arguments[0].click();", hardhat)
 
+safetyshoes = driver.find_element(By.XPATH, '//*[@id="field114239292_2"]')
+driver.execute_script("arguments[0].click();", safetyshoes)
 
-#Hardhat = driver.find_element(By.XPATH,'//*[@id="field114239292_1"]')
-#Hardhat.click()
+SafetyGlasses = driver.find_element(By.XPATH, '//*[@id="field114239292_3"]')
+driver.execute_script("arguments[0].click();", SafetyGlasses)
 
-#SafetyShoes = driver.find_element(By.XPATH,'')
-#SafetyShoes.click()
+Gloves = driver.find_element(By.XPATH, '//*[@id="field114239292_9"]')
+driver.execute_script("arguments[0].click();", Gloves)
 
-#SafetyGlasses = driver.find_element(By.XPATH,'')
-#SafetyGlasses.click()
+# FallProtection = driver.find_element(By.XPATH, '//*[@id="field114239292_10"]')
+# driver.execute_script("arguments[0].click();", FallProtection)
 
-#LifeVest = driver.find_element(By.XPATH,'')
-#LifeVest.click
+# Goggles = driver.find_element(By.XPATH, '//*[@id="field114239292_4"]')
+# driver.execute_script("arguments[0].click();", Goggles)
 
-#Gloves = driver.find_element(By.XPATH,'')
-#Gloves.click()
+# FaceShield = driver.find_element(By.XPATH, '//*[@id="field114239292_5"]')
+# driver.execute_script("arguments[0].click();", FaceShield)
 
-#Goggles = driver.find_element(By.XPATH,'')
-#Goggles.click()
+# HearingProtection = driver.find_element(By.XPATH, '//*[@id="field114239292_6"]')
+# driver.execute_script("arguments[0].click();", HearingProtection)
 
-#FaceSheild = driver.find_element(By.XPATH,'')
-#FaceSheild.click()
+# Respirator = driver.find_element(By.XPATH, '//*[@id="field114239292_"7]')
+# driver.execute_script("arguments[0].click();", Respirator)
 
-#HearingProt = driver.find_element(By.XPATH,'')
-#HearingProt.click()
-
-#Respirator = driver.find_element(By.XPATH,'')
-#Respirator.click()
-
-#FallProt = driver.find_element(By.XPATH,'')
-#FallProt.click()
-
-
-
+ProtectiveGarment = driver.find_element(By.XPATH, '//*[@id="field114239292_8"]')
+driver.execute_script("arguments[0].click();", ProtectiveGarment)

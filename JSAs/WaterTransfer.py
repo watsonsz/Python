@@ -1,12 +1,4 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.support.select import Select
-import time
-from datetime import datetime
 from JsaVariables import *
-s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
-driver = webdriver.Firefox(service=s)
 
 #open Webpage
 
@@ -152,3 +144,34 @@ Mb5.send_keys (situ, ppe)
 
 # Mb10 = driver.find_element(By.XPATH, '//*[@id="field114239241"]')
 # Mb10.send_keys ("Test")
+
+#Safety Equipment
+hardhat = driver.find_element(By.XPATH, '//*[@id="field114239292_1"]')
+driver.execute_script("arguments[0].click();", hardhat)
+
+safetyshoes = driver.find_element(By.XPATH, '//*[@id="field114239292_2"]')
+driver.execute_script("arguments[0].click();", safetyshoes)
+
+SafetyGlasses = driver.find_element(By.XPATH, '//*[@id="field114239292_3"]')
+driver.execute_script("arguments[0].click();", SafetyGlasses)
+
+Gloves = driver.find_element(By.XPATH, '//*[@id="field114239292_9"]')
+driver.execute_script("arguments[0].click();", Gloves)
+
+# FallProtection = driver.find_element(By.XPATH, '//*[@id="field114239292_10"]')
+# driver.execute_script("arguments[0].click();", FallProtection)
+
+# Goggles = driver.find_element(By.XPATH, '//*[@id="field114239292_4"]')
+# driver.execute_script("arguments[0].click();", Goggles)
+
+# FaceShield = driver.find_element(By.XPATH, '//*[@id="field114239292_5"]')
+# driver.execute_script("arguments[0].click();", FaceShield)
+
+# HearingProtection = driver.find_element(By.XPATH, '//*[@id="field114239292_6"]')
+# driver.execute_script("arguments[0].click();", HearingProtection)
+
+# Respirator = driver.find_element(By.XPATH, '//*[@id="field114239292_"7]')
+# driver.execute_script("arguments[0].click();", Respirator)
+
+ProtectiveGarment = driver.find_element(By.XPATH, '//*[@id="field114239292_8"]')
+driver.execute_script("arguments[0].click();", ProtectiveGarment)
