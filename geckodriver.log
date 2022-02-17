@@ -2267,3 +2267,99 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1644594618506	geckodriver	INFO	Listening on 127.0.0.1:64005
+1644594621584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64006" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilepawpG8"
+1644594621820	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilepawpG8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64006/devtools/browser/f74555e1-ae31-4c58-afc2-5f3901b63639
+1644594623317	Marionette	INFO	Listening on port 64011
+1644594623649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cbrtraffic.com/bundles/MsAjaxJs?v=w8cKDEk-YHxfmzhAZw5Tzhf_Hs8_MNDLcXMUB1Oq_Gk1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 40: Error: ASP.NET Ajax client-side framework failed to load.
+JavaScript error: https://cbrtraffic.com/bundles/WebFormsJs?v=1LgJW-2mBjl-hTkHYcgIzu_UjH0HZH_rdv34PfFLQFU1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 63: ReferenceError: Sys is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 1: ReferenceError: WebForm_DoPostBackWithOptions is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+JavaScript error: https://cbrtraffic.com/Devboats/Logs.aspx, line 141: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+1644594760033	Marionette	INFO	Stopped listening on port 64011
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644911329889	geckodriver	INFO	Listening on 127.0.0.1:59194
+1644911332969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59195" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileJmCztu"
+1644911334139	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileJmCztu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59195/devtools/browser/0fdf70b9-8a2c-4c36-9410-5f54a4a315e2
+1644911338808	Marionette	INFO	Listening on port 59204
+1644911338937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: https://cbrtraffic.com/bundles/MsAjaxJs?v=w8cKDEk-YHxfmzhAZw5Tzhf_Hs8_MNDLcXMUB1Oq_Gk1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 40: Error: ASP.NET Ajax client-side framework failed to load.
+JavaScript error: https://cbrtraffic.com/bundles/WebFormsJs?v=1LgJW-2mBjl-hTkHYcgIzu_UjH0HZH_rdv34PfFLQFU1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 63: ReferenceError: Sys is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 1: ReferenceError: WebForm_DoPostBackWithOptions is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1644922958307	Marionette	INFO	Stopped listening on port 59204
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644922979973	geckodriver	INFO	Listening on 127.0.0.1:57323
+1644922983076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57324" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilepy8Fex"
+1644922983347	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilepy8Fex\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57324/devtools/browser/5d9ea231-f13b-4a5d-8999-4611c59b7ff5
+1644922984969	Marionette	INFO	Listening on port 57331
+1644922985143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: https://cbrtraffic.com/bundles/MsAjaxJs?v=w8cKDEk-YHxfmzhAZw5Tzhf_Hs8_MNDLcXMUB1Oq_Gk1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 40: Error: ASP.NET Ajax client-side framework failed to load.
+JavaScript error: https://cbrtraffic.com/bundles/WebFormsJs?v=1LgJW-2mBjl-hTkHYcgIzu_UjH0HZH_rdv34PfFLQFU1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 63: ReferenceError: Sys is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2f, line 1: ReferenceError: WebForm_DoPostBackWithOptions is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+JavaScript error: https://cbrtraffic.com/Devboats/Logs.aspx, line 141: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644923316084	Marionette	INFO	Stopped listening on port 57331
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
