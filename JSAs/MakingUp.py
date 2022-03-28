@@ -9,8 +9,6 @@ time.sleep(2)
 #General Information variables
 
 VesselEmail = "mrthomas@centralboat.com"
-JobSite = "Mr Thomas"
-JobActivity = "Making Up to Barge"
 Pagevar = "1"
 ofvar = "1"
 tday = datetime.now()

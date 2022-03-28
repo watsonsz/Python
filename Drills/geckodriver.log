@@ -144,3 +144,30 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 1646454057787	Marionette	INFO	Stopped listening on port 52929
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 le server: NetworkError when attempting to fetch resource.
+1647235164202	geckodriver	INFO	Listening on 127.0.0.1:62230
+1647235167248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62231" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileOtMXDo"
+1647235167597	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileOtMXDo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62231/devtools/browser/3c670818-78c1-4d8b-be70-d7ccf305b6ec
+1647235169002	Marionette	INFO	Listening on port 62239
+1647235169292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1647235525428	Marionette	INFO	Stopped listening on port 62239
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1647847322421	geckodriver	INFO	Listening on 127.0.0.1:56835
+1647847325491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56836" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilegskAdm"
+1647847325686	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilegskAdm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56836/devtools/browser/f5b35f94-eb86-4bf5-a1e3-2be1bc797b99
+1647847326790	Marionette	INFO	Listening on port 56848
+1647847327036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1647847480210	Marionette	INFO	Stopped listening on port 56848
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+

@@ -9,12 +9,12 @@ s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
 #names
-deckhands = "Steven Watson, Joshua Miller"
-captain = "Percy Boudwin III" 
+deckhands = "Steven Watson, Hal Edwards"
+captain = "Jason Mayon" 
 
 #vessel information
-VesselEmail= "mrthomas@centralboat.com"
-JobSite = "Mr.Thomas"
+VesselEmail= "missedmay@centralboat.com"
+JobSite = "Miss Edmay"
 
 #steps variable:::::::::
 gather = "Gather Equipment and Tools"

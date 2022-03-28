@@ -8,15 +8,15 @@ from datetime import datetime
 s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
-Captain = 'Percy Boudwin III'
-Mate = 'Jason Mayon'
+Captain = 'Jason Mayon'
+Mate = 'John Fruge'
 Deck1 = 'Steven Watson'
-Deck2 = 'Joshua Miller'
+Deck2 = 'Hal Edwards'
 
 #Vessel Info
-VesselEmail = 'mrthomas@centralboat.com'
-Vessel = 'MR THOMAS'
-#Vessel = 'MISS EDMAY'
+VesselEmail = 'missedmay@centralboat.com'
+#Vessel = 'MR THOMAS'
+Vessel = 'MISS EDMAY'
 #time get
 tday = datetime.now()
 
