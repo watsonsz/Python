@@ -2450,3 +2450,39 @@ JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeE
 JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
 1648316440629	Marionette	INFO	Stopped listening on port 59721
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648519788729	geckodriver	INFO	Listening on 127.0.0.1:50945
+1648519791790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50946" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileidkWKf"
+1648519792101	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileidkWKf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50946/devtools/browser/f2e5e452-7826-4156-8623-94781bac4c6c
+1648519793497	Marionette	INFO	Listening on port 50956
+1648519793863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1648519820922	Marionette	INFO	Stopped listening on port 50956
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648519849162	geckodriver	INFO	Listening on 127.0.0.1:51153
+1648519852233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51154" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileTalIAF"
+1648519852487	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileTalIAF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51154/devtools/browser/b98a867b-28e5-4d25-b502-7aa35f6267c1
+1648519853759	Marionette	INFO	Listening on port 51165
+1648519853779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1648519881907	Marionette	INFO	Stopped listening on port 51165
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648538781347	geckodriver	INFO	Listening on 127.0.0.1:54706
+1648538784405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54707" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileKif8bG"
+1648538784643	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileKif8bG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54707/devtools/browser/ebd6f2f8-fde1-487d-b5f7-4374bfb9ff14
+1648538785990	Marionette	INFO	Listening on port 54716
+1648538786459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1648538797289	Marionette	INFO	Stopped listening on port 54716
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

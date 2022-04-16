@@ -8,7 +8,7 @@ time.sleep(2)
 
 #General Information variables
 
-JobActivity = "xxxxxxxxx"
+JobActivity = "Running Anchors"
 Pagevar = "1"
 ofvar = "1"
 tday = datetime.now()

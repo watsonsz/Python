@@ -7,8 +7,7 @@ driver.get('https://alternasec.formstack.com/forms/central_boat_rentals_job_envi
 time.sleep(2)
 
 #General Information variables
-
-VesselEmail = "mrthomas@centralboat.com"
+JobActivity = "Making Up to Barge"
 Pagevar = "1"
 ofvar = "1"
 tday = datetime.now()
