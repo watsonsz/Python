@@ -2486,3 +2486,329 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
 1648538797289	Marionette	INFO	Stopped listening on port 54716
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652522566890	geckodriver	INFO	Listening on 127.0.0.1:63752
+1652522570051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63753" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileWB7ZvF"
+1652522570242	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileWB7ZvF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63753/devtools/browser/c03e99c4-af3c-4b79-b820-8420d132a9fb
+1652522571198	Marionette	INFO	Listening on port 63758
+1652522571608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1652522576146	Marionette	INFO	Stopped listening on port 63758
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653515880251	geckodriver	INFO	Listening on 127.0.0.1:63158
+1653515883306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63159" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile0ywN8d"
+1653515883558	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile0ywN8d\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63159/devtools/browser/6fe8fe35-f68b-4c08-b9be-5f443e02bfab
+1653515884785	Marionette	INFO	Listening on port 63170
+1653515884864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653515893312	Marionette	INFO	Stopped listening on port 63170
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653533873480	geckodriver	INFO	Listening on 127.0.0.1:58876
+1653533876511	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58877" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileNrpkHj"
+1653533876758	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileNrpkHj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58877/devtools/browser/79d5eb79-0ed7-41f9-9fca-7b2aa4c76e71
+1653533878232	Marionette	INFO	Listening on port 58883
+1653533878564	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653533888075	Marionette	INFO	Stopped listening on port 58883
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653533902827	geckodriver	INFO	Listening on 127.0.0.1:58982
+1653533905865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58983" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileopYIuT"
+1653533906074	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileopYIuT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58983/devtools/browser/7941f61d-7328-4836-a5a2-93b9d22ac6f0
+1653533907120	Marionette	INFO	Listening on port 58989
+1653533907408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653533908780	Marionette	INFO	Stopped listening on port 58989
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1653534013597	geckodriver	INFO	Listening on 127.0.0.1:59111
+1653534016653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59112" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilep0EvGj"
+1653534016866	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilep0EvGj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59112/devtools/browser/5c6801a8-56bf-4cf7-8c93-9fbb1a027c30
+1653534017979	Marionette	INFO	Listening on port 59122
+1653534018206	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653534027960	Marionette	INFO	Stopped listening on port 59122
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653534060901	geckodriver	INFO	Listening on 127.0.0.1:59225
+1653534063941	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59226" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileQWj3L2"
+1653534064147	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileQWj3L2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59226/devtools/browser/b05b64e6-f0c1-487c-a6aa-3bbfce5ecdcd
+1653534065235	Marionette	INFO	Listening on port 59233
+1653534065482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653534074543	Marionette	INFO	Stopped listening on port 59233
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653534081921	geckodriver	INFO	Listening on 127.0.0.1:59312
+1653534084972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59313" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile1Ydxse"
+1653534085182	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile1Ydxse\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59313/devtools/browser/c472c826-f5fb-49d2-a761-10b7ea4cf276
+1653534086202	Marionette	INFO	Listening on port 59320
+1653534086504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653534094132	Marionette	INFO	Stopped listening on port 59320
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/Utils.jsm, line 153: TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653534121452	geckodriver	INFO	Listening on 127.0.0.1:59415
+1653534124487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59416" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileeQSowk"
+1653534124691	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileeQSowk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59416/devtools/browser/566c1ac9-99a1-4dea-9864-2f8829cce611
+1653534125761	Marionette	INFO	Listening on port 59423
+1653534126034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653534132190	Marionette	INFO	Stopped listening on port 59423
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/Utils.jsm, line 153: TypeError: NetworkError: Network request failed
+1653617117157	geckodriver	INFO	Listening on 127.0.0.1:58497
+1653617120209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58498" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile8PCIrO"
+1653617120620	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile8PCIrO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58498/devtools/browser/07048063-d9c0-48f3-8a33-3a46fd087905
+1653617122233	Marionette	INFO	Listening on port 58505
+1653617122278	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653617144640	Marionette	INFO	Stopped listening on port 58505
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653617149384	geckodriver	INFO	Listening on 127.0.0.1:58580
+1653617152483	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58581" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile5TBwYg"
+1653617152858	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile5TBwYg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58581/devtools/browser/178147e2-aa58-4b2f-b4be-acd5c5fbd8d4
+1653617154290	Marionette	INFO	Listening on port 58586
+1653617154551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653617171558	Marionette	INFO	Stopped listening on port 58586
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654588236917	geckodriver	INFO	Listening on 127.0.0.1:50694
+1654588239948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50695" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilewHE7VG"
+1654588240270	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:50695
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilewHE7VG\\search.json.mozlz4", (void 0)))
+1654588241726	Marionette	INFO	Listening on port 50700
+DevTools listening on ws://localhost:50695/devtools/browser/b58bebab-c822-4eef-8200-1791cc16e69c
+1654588242003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+JavaScript warning: https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https://mail.google.com/mail/u/0/&followup=https://mail.google.com/mail/u/0/&emr=1 line 2 > eval line 1827 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1654588439693	Marionette	INFO	Stopped listening on port 50700
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654895470447	geckodriver	INFO	Listening on 127.0.0.1:62889
+1654895473515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62890" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile7Rd98D"
+1654895473770	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62890
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile7Rd98D\\search.json.mozlz4", (void 0)))
+1654895475242	Marionette	INFO	Listening on port 62975
+DevTools listening on ws://localhost:62890/devtools/browser/80650cac-4d60-49e2-acf4-ff0a958df0d4
+1654895475566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1654895523158	Marionette	INFO	Stopped listening on port 62975
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1654895549919	geckodriver	INFO	Listening on 127.0.0.1:63532
+1654895553008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63533" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilexJzWa5"
+1654895553254	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:63533
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilexJzWa5\\search.json.mozlz4", (void 0)))
+1654895554525	Marionette	INFO	Listening on port 63538
+1654895554552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:63533/devtools/browser/a901f125-905f-4ca6-9098-e1f46d63cea1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1654895587559	Marionette	INFO	Stopped listening on port 63538
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 3116, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1656885789631	geckodriver	INFO	Listening on 127.0.0.1:58299
+1656885792705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58300" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile4rhaCh"
+1656885792928	Marionette	INFO	Marionette enabled
+1656885792931	Marionette	INFO	Listening on port 58310
+WebDriver BiDi listening on ws://localhost:58300
+1656885793252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile4rhaCh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58300/devtools/browser/f0fcee43-0570-4582-964a-e17a03481b1b
+1656885804333	Marionette	INFO	Stopped listening on port 58310
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1657206367652	geckodriver	INFO	Listening on 127.0.0.1:54821
+1657206370696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54822" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileGzvwZ9"
+1657206371115	Marionette	INFO	Marionette enabled
+1657206371119	Marionette	INFO	Listening on port 54833
+WebDriver BiDi listening on ws://localhost:54822
+1657206371343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileGzvwZ9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54822/devtools/browser/b4faaa88-b57d-49bd-be70-1de82a1c5797
+1657206414637	Marionette	INFO	Stopped listening on port 54833
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1657388962760	geckodriver	INFO	Listening on 127.0.0.1:60515
+1657388965848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60516" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileAodmrp"
+1657388966167	Marionette	INFO	Marionette enabled
+1657388966171	Marionette	INFO	Listening on port 60521
+WebDriver BiDi listening on ws://localhost:60516
+1657388966431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileAodmrp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60516/devtools/browser/6901178e-9006-469b-af38-6e1f26f9512b
+JavaScript error: https://cbrtraffic.com/bundles/MsAjaxJs?v=w8cKDEk-YHxfmzhAZw5Tzhf_Hs8_MNDLcXMUB1Oq_Gk1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 40: Error: ASP.NET Ajax client-side framework failed to load.
+JavaScript error: https://cbrtraffic.com/bundles/WebFormsJs?v=1LgJW-2mBjl-hTkHYcgIzu_UjH0HZH_rdv34PfFLQFU1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 63: ReferenceError: Sys is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 1: ReferenceError: WebForm_DoPostBackWithOptions is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+JavaScript error: https://cbrtraffic.com/Devboats/Logs.aspx, line 141: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+1657389025731	Marionette	INFO	Stopped listening on port 60521
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1657389043643	geckodriver	INFO	Listening on 127.0.0.1:60584
+1657389046741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60585" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileLyUQyg"
+1657389047139	Marionette	INFO	Marionette enabled
+1657389047145	Marionette	INFO	Listening on port 60590
+WebDriver BiDi listening on ws://localhost:60585
+1657389047369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileLyUQyg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60585/devtools/browser/4f6fa413-1c44-423c-abe3-68a7c1b80627
+JavaScript error: https://cbrtraffic.com/bundles/MsAjaxJs?v=w8cKDEk-YHxfmzhAZw5Tzhf_Hs8_MNDLcXMUB1Oq_Gk1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 40: Error: ASP.NET Ajax client-side framework failed to load.
+JavaScript error: https://cbrtraffic.com/bundles/WebFormsJs?v=1LgJW-2mBjl-hTkHYcgIzu_UjH0HZH_rdv34PfFLQFU1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 63: ReferenceError: Sys is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 1: ReferenceError: WebForm_DoPostBackWithOptions is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+JavaScript error: https://cbrtraffic.com/Devboats/Logs.aspx, line 141: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+1657397068382	geckodriver	INFO	Listening on 127.0.0.1:60798
+1657397071446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60799" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile87Lo6Z"
+1657397071773	Marionette	INFO	Marionette enabled
+1657397071779	Marionette	INFO	Listening on port 60804
+WebDriver BiDi listening on ws://localhost:60799
+1657397072017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofile87Lo6Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60799/devtools/browser/e76f2bb2-673e-4452-83bc-a99e748987c9
+1657397097027	Marionette	INFO	Stopped listening on port 60804
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1657397100952	geckodriver	INFO	Listening on 127.0.0.1:52434
+1657397104021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52435" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilekSMqDo"
+1657397104381	Marionette	INFO	Marionette enabled
+1657397104385	Marionette	INFO	Listening on port 64001
+WebDriver BiDi listening on ws://localhost:52435
+1657397104628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofilekSMqDo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52435/devtools/browser/b606b359-bd9b-4a24-a605-87d41d1a8563
+JavaScript error: https://cbrtraffic.com/bundles/MsAjaxJs?v=w8cKDEk-YHxfmzhAZw5Tzhf_Hs8_MNDLcXMUB1Oq_Gk1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 40: Error: ASP.NET Ajax client-side framework failed to load.
+JavaScript error: https://cbrtraffic.com/bundles/WebFormsJs?v=1LgJW-2mBjl-hTkHYcgIzu_UjH0HZH_rdv34PfFLQFU1, line 3: SyntaxError: expected expression, got '<'
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 63: ReferenceError: Sys is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: https://cbrtraffic.com/Default.aspx?ReturnUrl=%2fDevboats%2fLogs.aspx, line 1: ReferenceError: WebForm_DoPostBackWithOptions is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+JavaScript error: https://cbrtraffic.com/Devboats/Logs.aspx, line 141: TypeError: document.getElementById(...) is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cbrtraffic.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://cbrtraffic.com/Devboats/Logs.aspx, line 160: unreachable code after return statement
+1657397166940	Marionette	INFO	Stopped listening on port 64001
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1657397187420	geckodriver	INFO	Listening on 127.0.0.1:56216
+1657397190507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56217" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofiledRP1rI"
+1657397190817	Marionette	INFO	Marionette enabled
+1657397190821	Marionette	INFO	Listening on port 56222
+WebDriver BiDi listening on ws://localhost:56217
+1657397191051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofiledRP1rI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56217/devtools/browser/a703cb8a-1328-423c-a58a-d74185f41d09
+1657397203712	Marionette	INFO	Stopped listening on port 56222
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1657667632550	geckodriver	INFO	Listening on 127.0.0.1:61779
+1657667635633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61780" "-no-remote" "-profile" "C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileMTZjLq"
+1657667635962	Marionette	INFO	Marionette enabled
+1657667635967	Marionette	INFO	Listening on port 61786
+WebDriver BiDi listening on ws://localhost:61780
+1657667636227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Xxmoz\\AppData\\Local\\Temp\\rust_mozprofileMTZjLq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61780/devtools/browser/03585ebe-b2bd-4ea3-87e8-beb620957029
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://alternasec.formstack.com"
+1657667703059	Marionette	INFO	Stopped listening on port 61786
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

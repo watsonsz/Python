@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.select import Select
 import time
-s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
+s=Service('C:/Users/Xxmoz/OneDrive/Documents/git-hub-repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
 #open Webpage
@@ -13,8 +13,8 @@ driver.get('https://cbrtraffic.com/Devboats/Logs.aspx')
 time.sleep(2)
 
 #Login Variables
-username = "mrthomas"
-pw = "CBR8200"
+username = "misselizabeth"
+pw = "cbr8200"
 
 #Login
 username_input = driver.find_element(By.XPATH, '//*[@id="MainContent_idLogin_UserName"]')
@@ -29,7 +29,7 @@ login = driver.find_element(By.XPATH,'//*[@id="MainContent_idLogin_Button1"]')
 login.click()
 
 #General Variables
-name = "Mr Thomas"
+name = "Miss Elizabeth"
 
 #Inputs
 refresh = driver.find_element(By.XPATH, '//*[@id="A2"]')
@@ -37,7 +37,7 @@ refresh.click()
 
 customer = driver.find_element(By.XPATH, '//*[@id="MainContent_DDLCustomer"]')
 customer_object = Select(customer)
-customer_object.select_by_visible_text('GREAT LAKES')
+customer_object.select_by_visible_text('SKANSKA')
 
 crewinfo = driver.find_element(By.XPATH, '//*[@id="MainContent_btnGetCrew"]')
 crewinfo.click()
@@ -45,7 +45,7 @@ crewinfo.click()
 time.sleep(6)
 
 ticket = driver.find_element(By.XPATH, '//*[@id="MainContent_txtWO"]')
-ticket.send_keys('46855')
+ticket.send_keys('48275')
 
 activity = driver.find_element(By.XPATH, '//*[@id="MainContent_DDLActivity"]')
 activity_object = Select(activity)
@@ -63,16 +63,16 @@ time_check.send_keys('0001')
 
 location = driver.find_element(By.XPATH, '//*[@id="MainContent_DDLDock"]')
 location_object = Select(location)
-location_object.select_by_visible_text('CORPUS CHRISTI, TX')
+location_object.select_by_visible_text('SKANSKA DOCK')
 
 time.sleep(5)
 
 waterway = driver.find_element(By.XPATH, '//*[@id="MainContent_DDLWaterway"]')
 waterway_object = Select(waterway)
-waterway_object.select_by_visible_text('CORPUS CHRISTI SHIP CHANNEL')
+waterway_object.select_by_visible_text('BAYOU CHICO')
 
 location_info_keep = driver.find_element(By.XPATH, '//*[@id="MainContent_chkKeepLocation"]')
 location_info_keep.click()
 
 comment_section = driver.find_element(By.XPATH, '//*[@id="MainContent_txtComments"]')
-comment_section.send_keys('stby Dredge Carolina')
+comment_section.send_keys('S/B FOR ORDERS')

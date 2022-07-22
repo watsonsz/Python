@@ -101,3 +101,6 @@ Deckhand1.send_keys(Deck1)
 
 Deckhand2 = driver.find_element(By.XPATH, '//*[@id="field105500081"]')
 Deckhand2.send_keys(Deck2)
+
+Deckhand3 = driver.find_element(By.XPATH, '//*[@id="field105500077"]')
+Deckhand3.send_keys(Deck3)

@@ -5,22 +5,27 @@ from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.select import Select
 import time
 from datetime import datetime
-s=Service('C:/Users/Xxmoz/Documents/git-hub Repos/Python/geckodriver.exe')
+s=Service('C:/Users/Xxmoz/OneDrive/Documents/git-hub-repos/Python/geckodriver.exe')
 driver = webdriver.Firefox(service=s)
 
 #names
-deckhands = "Steven Watson, Joshua Miller"
-captain = "Percy Boudwin III" 
+deckhand1 = "Steven Watson"
+deckhand2 = "Blaine Gavin"
+deckhand3 = "Josiah Freerick"
+
+#FIXME:::::
+deckhands = deckhand1 + ", " + deckhand2+", "+deckhand3
+captain = "Bryan Veregrin" 
 
 #vessel information
-VesselEmail= "missedmay@centralboat.com"
-JobSite = "Miss Edmay"
+VesselEmail= "misselizabeth@centralboat.com"
+JobSite = "Miss Elizabeth"
 
 #steps variable:::::::::
 gather = "Gather Equipment and Tools"
 stow = "Stow Equipment and Tools"
 
-#Hazard Variables:::::::(The 'import time' thing is there because I always get a syntax error if the first line is commented)
+#Hazard Variables
 slip = "Slips, Trips, and Falls, "
 pinch = "Pinch Points, "
 back = "Back Strain, "
