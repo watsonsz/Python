@@ -12,7 +12,7 @@ Captain = 'Bryan Veregrin'
 Mate = 'Bryce Jones'
 Deck1 = 'Steven Watson'
 Deck2 = 'Blaine Gavin'
-Deck3 = 'Josiah Freerick'
+Deck3 = 'Kyle Brumfield'
 
 #Vessel Info
 VesselEmail = 'MissElizabeth@centralboat.com'

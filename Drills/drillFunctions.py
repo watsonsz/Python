@@ -113,12 +113,27 @@ def findScene():
             fireEngineRoom()
             return "Defensive Driving"
         elif(tday.strftime('%d') < '22'):
-            manOverboard
+            manOverboard()
             return "Training Completed for this month"
         else:
             collision()
             return "Training Completed for this month"
-
+    if(tday.strftime('%B') == "September"):
+        if(tday.strftime('%d') < 4):
+            grounding()
+            return "SDS (Storage/Safe Use)"
+        elif (tday.strftime('%d') < 12):
+            fireOnBarge()
+            return "Pollution Prevention/Small Spills"
+        elif (tday.strftime('%d') < 19):
+            spill()
+            return "Training Completed for this month"
+        elif (tday.strftime('%d') < 26):
+            security()
+            return "Training Completed for this month"
+        else:
+            abandonShip()
+            return "Training Completed for this month"
 
 def manOverboard():
     scene= "Man Overboard"
