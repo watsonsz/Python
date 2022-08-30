@@ -115,9 +115,12 @@ def findScene():
         elif(tday.strftime('%d') < '22'):
             manOverboard()
             return "Training Completed for this month"
-        else:
+        elif(tday.strftime('%d') < '28'):
             collision()
             return "Training Completed for this month"
+        else:
+            grounding()
+            return "SDS (Storage/Safe Use)"
     if(tday.strftime('%B') == "September"):
         if(tday.strftime('%d') < 4):
             grounding()
@@ -134,6 +137,57 @@ def findScene():
         else:
             abandonShip()
             return "Training Completed for this month"
+
+    if(tday.strftime('%B') == "October"):
+        if(tday.strftime('%d') < 10):
+            fireEngineRoom()
+            return "Lockout/Tag Out"
+        elif (tday.strftime('%d') < 17):
+            manOverboard()
+            return "Electrical Safety"
+        elif (tday.strftime('%d') < 24):
+            collision()
+            return "Training Completed for this month"
+        elif (tday.strftime('%d') < 31):
+            grounding()
+            return "Training Completed for this month"
+        else:
+            fireOnBarge
+            return "Respiratory Awareness"
+
+    if(tday.strftime('%B') == "November"):
+        if(tday.strftime('%d') < 7):
+            fireOnBarge()
+            return "Respiratory Awareness"
+        elif (tday.strftime('%d') < 14):
+            spill()
+            return "Benzene Awareness"
+        elif (tday.strftime('%d') < 21):
+            security()
+            return "Training Completed for this month"
+        elif (tday.strftime('%d') < 28):
+            abandonShip()
+            return "Training Completed for this month"
+        else:
+            fireEngineRoom()
+            return "Violence in the Workplace"
+
+    if(tday.strftime('%B') == "December"):
+        if(tday.strftime('%d') < 5):
+            fireEngineRoom()
+            return "Violence in the Workplace"
+        elif (tday.strftime('%d') < 12):
+            manOverboard()
+            return "Hand Protection"
+        elif (tday.strftime('%d') < 19):
+            lossOfSteering()
+            return "Training Completed for this month"
+        elif (tday.strftime('%d') < 26):
+            grounding()
+            return "Training Completed for this month"
+        else:
+            fireOnBarge
+            return "Slips, Trips, Falls"
 
 def manOverboard():
     scene= "Man Overboard"

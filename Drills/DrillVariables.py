@@ -9,10 +9,10 @@ s=Service('C:/Users/Xxmoz/OneDrive/Documents/git-hub-repos/Python/geckodriver.ex
 driver = webdriver.Firefox(service=s)
 
 Captain = 'Bryan Veregrin'
-Mate = 'Bryce Jones'
+Mate = 'Tim '
 Deck1 = 'Steven Watson'
-Deck2 = 'Blaine Gavin'
-Deck3 = 'Kyle Brumfield'
+Deck2 = 'Josiah Feerick'
+Deck3 = 'Carlos Garcia'
 
 #Vessel Info
 VesselEmail = 'MissElizabeth@centralboat.com'
